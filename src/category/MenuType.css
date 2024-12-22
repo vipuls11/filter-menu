@@ -1,0 +1,17 @@
+.category-buttons{
+    display:flex;
+    gap:10px;
+    justify-content: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+h2{
+    text-align: center;
+}
+
+.active {
+    background-color: #007bff; /* Active button style (e.g., blue background) */
+    color: white;               /* White text */
+  }
+  
+ 

@@ -1,0 +1,29 @@
+
+
+.Buttons{
+  padding: 10px 20px;
+  background-color: orange;
+  color: #fff;
+  font-size: 18px;
+  border:none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.Buttons:hover{
+  background-color: rgb(185, 140, 57);
+  color: #fff;  
+}
+
+.main_container{
+  width:90%;
+  margin:auto;
+}
+
+  /* Mobile styles (up to 768px wide) */
+  @media screen and (max-width: 768px) {
+    .Buttons{
+      padding: 10px 10px;
+      font-size: 14px;
+    }
+
+  }
